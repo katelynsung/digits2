@@ -14,10 +14,7 @@ export const EditStuffSchema = Yup.object({
   condition: Yup.string().oneOf(['excellent', 'good', 'fair', 'poor']).required(),
   owner: Yup.string().required(),
 });
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 export interface Contact {
   firstName: string;
   lastName: string;
